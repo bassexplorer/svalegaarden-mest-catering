@@ -824,6 +824,10 @@ footer .sites div {
   color: var(--secondary);
 }
 
+.contact-form .submit-btn{
+  border: none;
+}
+
 input[type=text],
 select,
 textarea {
@@ -1031,7 +1035,7 @@ input[type=submit]:hover {
   font-size: 1.4rem;
 }
 
-.eatatmest-main .book a {
+.eatatmest-main .book a,.contact-form .submit-btn {
   display: flex;
   background-color: var(--primary);
   color: var(--surface);
@@ -1041,6 +1045,8 @@ input[type=submit]:hover {
   align-self: center;
   font-size: 1.5rem;
 }
+
+
 
 .eatatmest-main .book span {
   font-weight: bold;
